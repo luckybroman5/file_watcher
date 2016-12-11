@@ -82,7 +82,6 @@ function changeHandler(eventType, filename) {
 
 function processQueue() {
   // Get the latest Change
-  console.log("Processing Queue!!");
   const uniqueUpdates = changeQueue.map((queueObject) => {
     if (!queueObject || !queueObject.file || !queueObject.time) return;
     const matches = changeQueue.map((qo) => {
