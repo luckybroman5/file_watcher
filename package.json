@@ -1,0 +1,14 @@
+{
+  "name": "file_watcher",
+  "version": "1.0.0",
+  "description": "Watches for file changes, and executes scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Kade Green",
+  "license": "ISC",
+  "dependencies": {
+    "args": "^2.2.0"
+  }
+}
