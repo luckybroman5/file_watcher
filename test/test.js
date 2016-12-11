@@ -1,3 +1,5 @@
-'use strict';
+'use strict; console.log(test script worked!);'
 
-console.log('Testing...');
+"I am cool"
+
+""Yas
